@@ -4,3 +4,6 @@ node default {
     content => 'Best README ever made /n',
   }
 }
+node 'master.puppet.vm' {
+  include role::master_server
+}
